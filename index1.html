@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+    <title>Lori Nitzel</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="//unslider.com/unslider.min.js"></script>
+
+    <style type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+   
+  		body {
+  			margin:0;
+  		}
+  		
+  		#container {
+  			
+  		}
+  		
+  		#topbar {
+  			background-color:#585858;
+  			width:100%;
+  			height:90px;
+  		}
+  		
+  		.fixed-width {
+  			width:1150px;
+  			margin:0 auto;
+  		}
+  		
+  		.break {
+  			clear:both;
+  		}
+  		
+  		#bottombar {
+  			background-color:#01DFD7;
+  			width:100%;
+  			height:220px;
+  			color:white;
+  			background-repeat:repeat-y;
+  			background-position:left;
+  			
+  		}
+  
+  		#name {
+  			color:white;
+  			margin:0;
+  			padding:75px 400px;
+  			font-family:'Montserrat', sans-serif;
+  			font-size:4em;
+  			font-weight:bold;
+  			text-align:center;
+  		{	
+  		
+  		#menu {
+  		
+  		}
+  		
+  		#menu ul {
+  			float:left;
+  			padding:0; margin:0;
+  			height:100px;
+  		}
+  		
+  		#menu li {
+  			float:left;
+  			color:white;
+  			list-style:none;
+  			font-size:0.8em;
+  			font-family:'Montserrat', sans-serif;
+  			padding:4px;
+  			
+  		}
+   
+		#imagebar {
+  			width:100%;
+  			height:250px;
+		}   
+		
+		#contentleft {
+			color:#2E2E2E;
+			width:50%;
+			font-size:0.1em;
+			float:left;
+		}
+		
+		#contentright {
+			color:#2E2E2E;
+			width:50%;
+			font-size:0.1em;
+			float:right;
+		}
+		
+		h1 {
+			color:#086A87;
+			font-family:'Montserrat', sans-serif;
+			font-size:3em;
+		}
+		
+		#circle {
+			background-color:#74DF00;
+			width:100px;
+			height:100px;
+			border-radius:50px;
+		}
+		
+    </style>     
+</head>
+
+<body>
+
+<div id="container">
+	
+	<div id="topbar">
+	<div class="fixed-width">
+
+	
+		<div id="menu">
+		
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Goals</li>
+			</ul>
+		
+		</div>
+	</div>
+	</div>
+	</div>
+	<div class="break"></div>
+	
+	<div id="container">
+	
+	<div id="bottombar">
+		
+		<p id="name">Lori Nitzel</p>
+	</div>
+	</div>
+		
+			
+		<div id="imagebar">
+		<img src="images/landscape.jpg" alt="on the beach" style="width:100%;height:360px;">
+		</div>
+	
+
+<div class="break"></div>
+
+
+<div id="contentleft">
+<div class="fixed-width">
+	
+	<h1>Text here</h1>
+	<p>text text text adfdkljsf;lkjf;lkajfl;kajfl;kajfld;kjfl;akjdfl;dakfjaafjakljdfl;akdjfal;kdjflkajfl;aksjdfl;kjfl;kajkldja;lejfakldjfal;kdfjal;kdjfal;kdfja;ljfakls</p>
+</div>
+</div>
+
+<div id="circle">
+Test
+</div>
+
+<div id="contentright"> 
+<div class="fixed-width">
+	<h2>Text should be floating right</h2>
+	<p>blahblah</p>
+</div>
+</div>
+
+
+	
+<script>
+$(document).ready(function(){
+    $("circle").mouseenter(function(){
+        $("circle").fadeTo("fast", 1)
+    });
+    $("circle").mouseleave(function(){
+        $("circle").fadeTo("fast", 0.5)
+    });
+});
+
+</script>	
+	
+</body>
+</html>

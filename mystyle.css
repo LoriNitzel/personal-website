@@ -1,0 +1,147 @@
+
+   		
+  		body {
+  			margin:0;
+  		}
+  		
+  		
+  		#topbar {
+  			background-color:#585858;
+  			width:100%;
+  	
+  		
+  		}
+  		
+  		.fixed-width {
+  			width:1150px;
+  			margin:0 auto;
+  		}
+  		
+  		.break {
+  			clear:both;
+  		}
+  		
+  		#bottombar {
+  			background-color:#01DFD7;
+  			width:100%;
+  			height:180px;
+  			color:white;
+  			background-repeat:repeat-y;
+  			background-position:left;
+  			
+  		}
+  
+  		#name {
+  			color:white;
+  			margin:0;
+  			padding:60px 75px;
+  			font-family:'Montserrat', sans-serif;
+  			font-size:4em;
+  			font-weight:bold;
+  			text-align:center;
+  		}
+  		
+  		
+  		.nav ul {
+  			list-style:none;
+  			background-color: #444;
+  			padding:0; 
+  			margin:0;
+  			text-align:center;
+  
+  	
+  		}
+  		
+  		.nav li {
+  			font-family:'Montserrat', sans-serif;
+  			font-size:0.8em;
+  			line-height:40px;
+  			height:40px;
+  			border-bottom:1px solid #888;
+  			display:inline-block;
+  			margin-right:-4px;
+  			
+  		}
+  		
+  		.nav a {
+  			text-decoration:none;
+  			color: #fff;
+  			display:block;
+  			transition:.3s background-color;
+  		}
+  		
+  		.nav a:hover {
+  			background-color:#005f5f;
+  		}
+   
+   		.nav a.active {
+   			background-color:#fff;
+   			color:#444;
+   			cursor:default;
+   		}
+   
+   		@media screen and (min-width:600px) {
+   			.nav li {
+   				width:120px;
+   				border-bottom:none;
+   				height:50px;
+   				line-height:50px;
+   				font-size:1.0em;
+   		}
+   
+		.banner {
+  			position:relative;
+  			overflow:auto;
+  		
+		}   
+		
+		.banner ul {
+			margin:0;
+			padding:0;
+		}
+		
+		.banner ul li {
+			float:left;
+			padding:0px;
+			margin:0px;
+			list-style:none;
+		}
+		
+		#contentleft {
+			font-family:"Arial", sans-serif;
+			color:#2E2E2E;
+			width:55%;
+			float:left;
+			margin:0% 2%;
+		}
+		
+		#contentright {
+			font-family:"Arial", sans-serif;
+			color:#2E2E2E;
+			width:36%;
+			float:left;
+			margin:0% 2%;
+		}
+		
+		h1 {
+			color:#086A87;
+			font-family:'Montserrat', sans-serif;
+			font-size:3em;
+			float:right;
+		}
+		
+		#circle {
+			background-color:#74DF00;
+			width:100px;
+			height:100px;
+			border-radius:100px;
+			margin:10px;
+			float:right;
+			margin:40px;
+		}
+		
+		.clear {
+			clear:both;
+		}
+	
+	
